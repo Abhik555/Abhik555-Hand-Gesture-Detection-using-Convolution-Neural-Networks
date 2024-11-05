@@ -70,15 +70,14 @@ The model used in this project is a Convolutional Neural Network (CNN) designed 
 - Dropout(0.5)
 - Dense(num_classes, activation='softmax', name="outputs")
 
-
 ## Training
 
 The model was trained using the following parameters:
 
 - Optimizer: Adam
-- Loss Function: Categorical Crossentropy
-- Epochs: 50
-- Batch Size: 32
+- Loss Function: SparseCategoricalCrossentropy
+- Epochs: 15
+- Batch Size: 128
 
 ## Evaluation
 
