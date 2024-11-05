@@ -1,4 +1,6 @@
-# Hand Gesture Detector
+# Hand Gesture Detection on Hagrid 150k Dataset
+
+Author: Abhik Ghosh
 
 This project is focused on image classification using the Hagrid dataset. The goal is to develop a hand gesture detection model that can accurately classify different hand gestures and compare multiple model architecture to find the perfect balance between complexcity and accuracy.
 
