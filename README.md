@@ -89,10 +89,43 @@ The model was evaluated using a separate validation set. The performance metrics
 
 The final model achieved the following results on the validation set:
 
-- Accuracy: 95%
-- Precision: 94%
-- Recall: 93%
-- F1-score: 93.5%
+### Simple CNN Metrics
+
+- Accuracy: 82%
+- Precision: 80%
+- Recall: 79%
+- F1-score: 80%
+
+#### Simple Model Size
+
+- keras file: 96.4 MB
+- tflite: 32.1 MB
+
+### Complex CNN Metrics
+
+- Accuracy: 74%
+- Precision: 72%
+- Recall: 71%
+- F1-score: 71%
+
+#### Complex Model Size
+
+- keras file: 385 MB
+- tflite: 128 MB
+
+### Compareable ResNET50 Model
+
+- Accuracy: 93%
+- Precision: 93%
+- Recall: 92%
+- F1-score: 92%
+
+#### ResNET50 Model Size
+
+- keras file: 271 MB
+- tflite: 89.8 MB
+
+### Trained Model Files can be downloaded from releases
 
 ## Conclusion
 
